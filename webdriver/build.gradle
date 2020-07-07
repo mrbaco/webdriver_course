@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+compileJava.options.encoding = 'UTF-8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+test {
+    systemProperty "webdriver.chrome.driver", "C:/Users/do.sokolov/IdeaProjects/hybwebqa/bin/chromedriver.exe"
+}
+
+dependencies {
+    implementation group: 'junit', name: 'junit', version: '4.13'
+    implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
+}
