@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.titleContains;
 
-public class theFirstTest {
+public class task1 {
 
     private WebDriver driver;
     private WebDriverWait wait;
