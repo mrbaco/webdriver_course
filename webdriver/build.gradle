@@ -17,6 +17,8 @@ repositories {
 
 test {
     systemProperty "webdriver.chrome.driver", "C:/Users/do.sokolov/IdeaProjects/hybwebqa/bin/chromedriver.exe"
+    systemProperty "webdriver.gecko.driver", "C:/Users/do.sokolov/IdeaProjects/hybwebqa/bin/geckodriver.exe"
+    systemProperty "webdriver.edge.driver", "C:/Users/do.sokolov/IdeaProjects/hybwebqa/bin/msedgedriver.exe"
 }
 
 dependencies {
