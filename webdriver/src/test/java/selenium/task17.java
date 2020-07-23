@@ -10,7 +10,7 @@ import java.util.List;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClickable;
 
-public class task15 extends TestBase {
+public class task17 extends TestBase {
 
     @Test
     public void test1() {
