@@ -1,4 +1,4 @@
-package selenium;
+package deprecated;
 
 import org.junit.Assert;
 import org.junit.Test;

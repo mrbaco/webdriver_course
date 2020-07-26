@@ -1,4 +1,4 @@
-package selenium;
+package deprecated;
 
 import org.junit.After;
 import org.junit.Before;
